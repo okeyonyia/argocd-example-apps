@@ -4,7 +4,7 @@ metadata:
   name: guestbook
   description: "A sample multi-tier guestbook app"
   annotations:
-    argocd/app-name: guestbook
+    argocd/app-name: guestbook1
 spec:
   type: service
   lifecycle: experimental
