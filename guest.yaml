@@ -3,6 +3,8 @@ kind: Group
 metadata:
   name: guest
   namespace: default
-  description: 'Guest group'
+  description: 'The guest group'
 spec:
   type: group
+  profile:
+    displayName: 'Guest Group'
